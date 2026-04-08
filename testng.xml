@@ -4,9 +4,30 @@
     <listeners>
         <listener class-name="utils.TestListener"/>
     </listeners>
-    <test name="Login Tests">
+    
+    <!-- SauceDemo Tests -->
+    <test name="SauceDemo Login Tests">
         <classes>
             <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    
+    <!-- Flipkart Tests -->
+    <test name="Flipkart Search Tests">
+        <classes>
+            <class name="com.selenium.framework.tests.flipkart.FlipkartSearchTests"/>
+        </classes>
+    </test>
+    
+    <test name="Flipkart Cart Tests">
+        <classes>
+            <class name="com.selenium.framework.tests.flipkart.FlipkartCartTests"/>
+        </classes>
+    </test>
+    
+    <test name="Flipkart Login Tests">
+        <classes>
+            <class name="com.selenium.framework.tests.flipkart.FlipkartLoginTests"/>
         </classes>
     </test>
 </suite>
